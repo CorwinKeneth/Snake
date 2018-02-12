@@ -20,6 +20,25 @@ namespace Snake
             p1.Draw();
             p2.Draw();
 
+            List<char> Charlist = new List<char>();
+
+            Charlist.Add('a');
+            Charlist.Add('d');
+            Charlist.Add('b');
+            Charlist.Add('g');
+
+            Charlist.Sort();
+
+            Charlist.RemoveAt(2);
+
+            List<Point> PointList = new List<Point>();
+
+            PointList.Add(p1);
+            PointList.Add(p2);
+
+//            PointList.Sort();  
+
+
             Console.ReadKey();
         }
 
