@@ -30,7 +30,7 @@ namespace Snake
             curry = Console.CursorTop;
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
-            Console.SetCursorPosition(currx, curry);
+//            Console.SetCursorPosition(currx, curry);
         }
     }
 }
