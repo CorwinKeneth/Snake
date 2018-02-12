@@ -20,23 +20,11 @@ namespace Snake
             p1.Draw();
             p2.Draw();
 
-            List<char> Charlist = new List<char>();
+            HorizontalLine horizLine = new HorizontalLine(5, 8, 10, '_');
+            horizLine.Draw();
 
-            Charlist.Add('a');
-            Charlist.Add('d');
-            Charlist.Add('b');
-            Charlist.Add('g');
-
-            Charlist.Sort();
-
-            Charlist.RemoveAt(2);
-
-            List<Point> PointList = new List<Point>();
-
-            PointList.Add(p1);
-            PointList.Add(p2);
-
-//            PointList.Sort();  
+            VerticalLine vertLine = new VerticalLine(4, 10, 18, '|');
+            vertLine.Draw();
 
 
             Console.ReadKey();
