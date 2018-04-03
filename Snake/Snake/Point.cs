@@ -58,5 +58,11 @@ namespace Snake
             Console.Write(sym);
 //            Console.SetCursorPosition(currx, curry);
         }
+
+        public override string ToString()
+        {
+            return x + ", " + y + ", " + sym;
+        }
+
     }
 }
