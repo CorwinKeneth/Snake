@@ -21,8 +21,9 @@ namespace Snake
             leftBorder.Draw();
             rightBorder.Draw();
 
-            Point p = new Point(4, 5, '*');
-            Snake snake = new Snake(p, 5, Direction.RIGHT);
+            Point p = new Point(8, 9, '*');
+            Snake snake = new Snake(p, 4, Direction.DOWN);
+            snake.Draw();
 
             Console.ReadKey();
         }

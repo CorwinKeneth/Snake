@@ -10,6 +10,11 @@ namespace Snake
     {
         protected List<Point> points;
 
+        public Figure()
+        {
+            points = new List<Point>();
+        }
+
         public void Draw()
         {
             foreach (Point p in points)
